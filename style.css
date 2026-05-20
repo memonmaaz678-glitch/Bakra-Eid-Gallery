@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(243, 221, 221);
+}
+ul {
+  text-align: center;
+}
+
+li {
+  margin: 5px;
+  padding: 5px;
+  display: inline;
+}
+
+.nav_link {
+  font-size: 20px;
+}
+
+#donation_link {
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  font-size: 44px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+
+.heading_part_2 {
+  color: brown;
+}
+
+.description {
+  text-align: center;
+  font-size: 24px;
+  width: 800px;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+h2,
+p {
+  margin: 0px;
+}
+
+.cow_types_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 30px;
+  column-gap: 10px;
+}
+.cow_box {
+  width: 250px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cow_img {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+}
